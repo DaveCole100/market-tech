@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="Market Tech — בית לפלטפורמות, אפליקציות ופתרונות דיגיטליים">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0B2545"/>
+      <stop offset="0.5" stop-color="#0d2c56"/>
+      <stop offset="1" stop-color="#0B2545"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <!-- node network motif -->
+  <g stroke="#17B0A6" stroke-opacity="0.25" stroke-width="1.5">
+    <line x1="120" y1="140" x2="320" y2="90"/>
+    <line x1="320" y1="90" x2="500" y2="210"/>
+    <line x1="500" y1="210" x2="760" y2="140"/>
+    <line x1="760" y1="140" x2="980" y2="240"/>
+    <line x1="980" y1="240" x2="1080" y2="120"/>
+    <line x1="120" y1="140" x2="240" y2="300"/>
+    <line x1="240" y1="300" x2="500" y2="210"/>
+  </g>
+  <g fill="#17B0A6" fill-opacity="0.6">
+    <circle cx="120" cy="140" r="6"/><circle cx="320" cy="90" r="8"/>
+    <circle cx="500" cy="210" r="6"/><circle cx="760" cy="140" r="7"/>
+    <circle cx="980" cy="240" r="6"/><circle cx="1080" cy="120" r="6"/>
+    <circle cx="240" cy="300" r="6"/>
+  </g>
+  <!-- text (RTL, right-anchored) -->
+  <text x="1100" y="340" text-anchor="end" font-family="Heebo, Arial, sans-serif" font-weight="800" font-size="82" fill="#FFFFFF">Market Tech</text>
+  <text x="1100" y="410" text-anchor="end" font-family="Heebo, Arial, sans-serif" font-weight="700" font-size="40" fill="#7DD3CD">מרקט-טק פתרונות דיגיטליים</text>
+  <text x="1100" y="480" text-anchor="end" font-family="Heebo, Arial, sans-serif" font-weight="400" font-size="30" fill="#FFFFFF" fill-opacity="0.75">בית לפלטפורמות, אפליקציות ופתרונות דיגיטליים</text>
+  <text x="1100" y="545" text-anchor="end" font-family="Heebo, Arial, sans-serif" font-weight="500" font-size="26" fill="#7DD3CD">Gobez · CardDBee · BE TOR · Planist</text>
+</svg>
