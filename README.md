@@ -96,7 +96,7 @@ market-tech/
 
 - [ ] `contactEmail`, `businessHours` אמיתיים (`siteConfig.ts`).
 - [ ] `formsAccessKey` של Web3Forms (או להישאר עם `mailto`).
-- [ ] קישורי CardDBee / SHAMOOR / Planist + `isLive: true` (`platforms.ts`).
+- [x] קישורי CardDBee / SHAMOOR / Planist + `isLive: true` (`platforms.ts`).
 - [ ] קובצי לוגו אמיתיים ב-`public/logos/` + `logoSrc`.
 - [ ] **המרת `og-image.svg` ל-PNG** (`og-image.png`) ועדכון ה-meta ב-`index.html` — חלק מהרשתות אינן מציגות OG בפורמט SVG.
 - [ ] **בדיקה ואישור משפטי** של הטקסטים ב-`legal/legalContent.ts` (פרטיות, תנאי שימוש, ביטולים, נגישות) — הנוסח הנוכחי הוא טיוטה בסיסית בלבד.

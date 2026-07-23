@@ -51,11 +51,11 @@ export const platforms: Platform[] = [
       "מנוי חודשי/שנתי",
       "תכונות מתקדמות",
     ],
-    href: "#contact", // PLACEHOLDER — עדכנו ל-URL אמיתי כשקיים
+    href: "https://cdbee.co.il/",
     cta: "למידע על CardDBee",
     icon: CreditCard,
     logoSrc: "",
-    isLive: false,
+    isLive: true,
   },
   {
     id: "shamoor",
@@ -71,11 +71,11 @@ export const platforms: Platform[] = [
       "הקמה והטמעה",
       "תוספים ושירותים",
     ],
-    href: "#contact", // PLACEHOLDER — עדכנו ל-URL אמיתי כשקיים
+    href: "https://shamoor.co.il/",
     cta: "למידע על SHAMOOR",
     icon: CalendarCheck,
     logoSrc: "/logos/shamoor.png",
-    isLive: false,
+    isLive: true,
   },
   {
     id: "planist",
@@ -92,10 +92,10 @@ export const platforms: Platform[] = [
       "הטמעה ותמיכה",
       "הכשרות ושירותים",
     ],
-    href: "#contact", // PLACEHOLDER — עדכנו ל-URL אמיתי כשקיים
+    href: "https://planist.co.il/",
     cta: "למידע על Planist",
     icon: LineChart,
     logoSrc: "",
-    isLive: false,
+    isLive: true,
   },
 ];
