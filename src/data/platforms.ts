@@ -35,7 +35,7 @@ export const platforms: Platform[] = [
     href: "https://gobez.co.il",
     cta: "לאתר גובז",
     icon: Users,
-    logoSrc: "", // לדוגמה: "/logos/gobez.png"
+    logoSrc: "/logos/gobez.png",
     isLive: true,
   },
   {
