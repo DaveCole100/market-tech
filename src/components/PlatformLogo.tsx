@@ -25,7 +25,7 @@ export function PlatformLogo({
         alt={name}
         loading="lazy"
         className={[
-          "h-full w-auto object-contain",
+          "h-4 w-auto object-contain",
           mono
             ? "opacity-70 [filter:brightness(0)_invert(1)] transition duration-300 group-hover:opacity-100 group-hover:[filter:none]"
             : "",
