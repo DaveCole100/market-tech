@@ -50,7 +50,7 @@ const SUBJECT_LABELS: Record<Exclude<Subject, "">, string> = {
 const SYSTEM_OPTIONS = [
   { value: "gobez", label: "גובז" },
   { value: "carddbee", label: "CardDBee" },
-  { value: "betor", label: "BE TOR" },
+  { value: "shamoor", label: "SHAMOOR" },
   { value: "planist", label: "Planist" },
   { value: "unknown", label: "לא ידוע" },
 ];

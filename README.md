@@ -1,6 +1,6 @@
 # Market Tech — מרקט-טק פתרונות דיגיטליים
 
-אתר One-Page תדמיתי + עמוד זיהוי חיובים עבור **Market Tech**, בית לפלטפורמות, אפליקציות ופתרונות דיגיטליים (גובז · CardDBee · BE TOR · Planist).
+אתר One-Page תדמיתי + עמוד זיהוי חיובים עבור **Market Tech**, בית לפלטפורמות, אפליקציות ופתרונות דיגיטליים (גובז · CardDBee · SHAMOOR · Planist).
 
 בנוי ב-**React + TypeScript + Vite + Tailwind CSS**, ללא מסד נתונים וללא שרת. תמיכה מלאה בעברית ו-RTL, Mobile-First, נגישות ו-SEO בסיסי.
 
@@ -61,7 +61,7 @@ market-tech/
 
 ### הפלטפורמות — `src/data/platforms.ts`
 כל פלטפורמה: שם, תגית, תיאור, קהל יעד, תשלומים, `href` (קישור), `cta`, `icon`, `logoSrc`, `isLive`.
-- **קישורי CardDBee / BE TOR / Planist** הם כרגע Placeholder (`#contact`) עם `isLive: false`. כשיהיה URL אמיתי — עדכנו את `href` ל-`https://...` ואת `isLive` ל-`true`.
+- **קישורי CardDBee / SHAMOOR / Planist** הם כרגע Placeholder (`#contact`) עם `isLive: false`. כשיהיה URL אמיתי — עדכנו את `href` ל-`https://...` ואת `isLive` ל-`true`.
 
 ### החלפת לוגואים
 1. שימו קובץ לוגו ב-`public/logos/` (למשל `public/logos/gobez.png`).
@@ -96,7 +96,7 @@ market-tech/
 
 - [ ] `contactEmail`, `businessHours` אמיתיים (`siteConfig.ts`).
 - [ ] `formsAccessKey` של Web3Forms (או להישאר עם `mailto`).
-- [ ] קישורי CardDBee / BE TOR / Planist + `isLive: true` (`platforms.ts`).
+- [ ] קישורי CardDBee / SHAMOOR / Planist + `isLive: true` (`platforms.ts`).
 - [ ] קובצי לוגו אמיתיים ב-`public/logos/` + `logoSrc`.
 - [ ] **המרת `og-image.svg` ל-PNG** (`og-image.png`) ועדכון ה-meta ב-`index.html` — חלק מהרשתות אינן מציגות OG בפורמט SVG.
 - [ ] **בדיקה ואישור משפטי** של הטקסטים ב-`legal/legalContent.ts` (פרטיות, תנאי שימוש, ביטולים, נגישות) — הנוסח הנוכחי הוא טיוטה בסיסית בלבד.
