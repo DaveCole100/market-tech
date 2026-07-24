@@ -31,21 +31,7 @@ export function Header() {
       }`}
     >
       <div className="container-mt flex h-[68px] items-center justify-between">
-        {/* לוגו (צד התחלה — ימין ב-RTL) */}
-        <a
-          href={`#${SECTIONS.hero}`}
-          className="flex flex-col leading-none"
-          aria-label={`${siteConfig.brandName} — לראש העמוד`}
-        >
-          <span className="text-xl font-extrabold tracking-tight text-navy">
-            Market Tech
-          </span>
-          <span className="mt-0.5 text-[11px] font-medium text-ink/50">
-            פתרונות דיגיטליים
-          </span>
-        </a>
-
-        {/* ניווט דסקטופ (צד סיום — שמאל ב-RTL) */}
+        {/* ניווט דסקטופ (צד התחלה — ימין ב-RTL) */}
         <nav
           className="hidden items-center gap-1 md:flex"
           aria-label="ניווט ראשי"
@@ -60,6 +46,20 @@ export function Header() {
             </a>
           ))}
         </nav>
+
+        {/* לוגו (צד סיום — שמאל ב-RTL) */}
+        <a
+          href={`#${SECTIONS.hero}`}
+          className="flex flex-col leading-none"
+          aria-label={`${siteConfig.brandName} — לראש העמוד`}
+        >
+          <span className="text-xl font-extrabold tracking-tight text-navy">
+            Market Tech
+          </span>
+          <span className="mt-0.5 text-[11px] font-medium text-ink/50">
+            פתרונות דיגיטליים
+          </span>
+        </a>
 
         {/* כפתור המבורגר (מובייל) */}
         <button
