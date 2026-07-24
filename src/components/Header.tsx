@@ -59,12 +59,6 @@ export function Header() {
               {item.label}
             </a>
           ))}
-          <a
-            href={`#${SECTIONS.contact}`}
-            className="btn-primary ms-2 !px-5 !py-2.5 text-sm"
-          >
-            בירור חיוב
-          </a>
         </nav>
 
         {/* כפתור המבורגר (מובייל) */}
@@ -113,13 +107,6 @@ export function Header() {
                   {item.label}
                 </a>
               ))}
-              <a
-                href={`#${SECTIONS.contact}`}
-                onClick={() => setOpen(false)}
-                className="btn-primary mt-3"
-              >
-                בירור חיוב
-              </a>
             </nav>
           </div>
         </div>
