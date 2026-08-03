@@ -49,6 +49,7 @@ const SUBJECT_LABELS: Record<Exclude<Subject, "">, string> = {
 
 const SYSTEM_OPTIONS = [
   { value: "gobez", label: "גובז" },
+  { value: "abait", label: "א׳-בית (abait.ai)" },
   { value: "carddbee", label: "CardDBee" },
   { value: "shamoor", label: "SHAMOOR" },
   { value: "planist", label: "Planist" },

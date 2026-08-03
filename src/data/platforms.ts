@@ -1,5 +1,11 @@
 import type { LucideIcon } from "lucide-react";
-import { Users, CreditCard, CalendarCheck, LineChart } from "lucide-react";
+import {
+  Users,
+  CreditCard,
+  CalendarCheck,
+  LineChart,
+  Building2,
+} from "lucide-react";
 
 export interface Platform {
   id: string;
@@ -11,8 +17,10 @@ export interface Platform {
   href: string; // קישור לאתר/מידע (Placeholder למותגים ללא אתר עדיין)
   cta: string; // תווית הכפתור
   icon: LucideIcon;
-  /** נתיב לוגו (ריק כברירת מחדל → נופל ל-wordmark טקסטואלי). לדוגמה: "/logos/gobez.png" */
+  /** נתיב לוגו רוחבי לרצועה ב-Hero (ריק → נופל ל-wordmark טקסטואלי). לדוגמה: "/logos/gobez.png" */
   logoSrc: string;
+  /** נתיב אייקון מרובע לכרטיס (ריק → נופל לאייקון הגנרי מ-lucide). לדוגמה: "/logos/gobez-icon.png" */
+  iconSrc?: string;
   /** האם קיים אתר חי (משפיע על target/rel וטקסט משלים) */
   isLive: boolean;
 }
@@ -36,6 +44,28 @@ export const platforms: Platform[] = [
     cta: "לאתר גובז",
     icon: Users,
     logoSrc: "/logos/gobez.png",
+    isLive: true,
+  },
+  {
+    id: "abait",
+    name: "א׳-בית",
+    tag: "ניהול בניינים וועדי בתים",
+    description:
+      "א׳-בית (abait.ai) היא פלטפורמה לניהול בניינים וועדי בתים — מא׳ ועד בית. המערכת מרכזת במקום אחד את ניהול הדיירים, גביית דמי הוועד ומעקב תשלומים, פתיחת קריאות תקלה וטיפול בהן, הודעות לדיירים, אסיפות והצבעות, מסמכים ופרוטוקולים, ספקי שירות והצגת הכנסות והוצאות הבניין בשקיפות מלאה — לוועד, לחברת הניהול ולדיירים עצמם.",
+    audience:
+      "ועדי בתים, יושבי ראש וחברי ועד, חברות ניהול ואחזקה, מנהלי בניינים ודיירים.",
+    payments: [
+      "מנוי חודשי",
+      "מסלול ועד בית",
+      "מסלול חברת ניהול",
+      "גביית דמי ועד בית מדיירים",
+      "תוספים ושירותים",
+    ],
+    href: "https://abait.ai",
+    cta: "לאתר א׳-בית",
+    icon: Building2,
+    logoSrc: "/logos/abait-wordmark.png",
+    iconSrc: "/logos/abait-icon.png",
     isLive: true,
   },
   {

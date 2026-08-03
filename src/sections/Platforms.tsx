@@ -29,9 +29,21 @@ export function Platforms() {
                 <article className="group flex h-full flex-col rounded-2xl border border-navy/10 bg-base/60 p-7 transition-all duration-300 hover:-translate-y-1 hover:border-teal/30 hover:bg-white hover:shadow-xl hover:shadow-navy/5">
                   {/* אזור לוגו + שם + תגית */}
                   <div className="flex items-center gap-4">
-                    <span className="inline-flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl bg-navy text-teal-light">
-                      <Icon size={26} aria-hidden="true" />
-                    </span>
+                    {p.iconSrc ? (
+                      <span className="inline-flex h-14 w-14 shrink-0 items-center justify-center overflow-hidden rounded-2xl">
+                        <img
+                          src={p.iconSrc}
+                          alt=""
+                          aria-hidden="true"
+                          loading="lazy"
+                          className="h-full w-full object-contain"
+                        />
+                      </span>
+                    ) : (
+                      <span className="inline-flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl bg-navy text-teal-light">
+                        <Icon size={26} aria-hidden="true" />
+                      </span>
+                    )}
                     <div>
                       <h3 className="text-xl font-extrabold text-navy">
                         {p.name}
