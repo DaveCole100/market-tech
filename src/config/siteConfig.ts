@@ -52,6 +52,7 @@ export const SECTIONS = {
   hero: "hero",
   about: "about",
   platforms: "platforms",
+  ai: "ai-integration",
   why: "why",
   faq: "faq",
   contact: "contact",
@@ -60,6 +61,7 @@ export const SECTIONS = {
 export const NAV_ITEMS: { label: string; target: string }[] = [
   { label: "אודות", target: SECTIONS.about },
   { label: "הפלטפורמות שלנו", target: SECTIONS.platforms },
+  { label: "הטמעת AI בארגונים", target: SECTIONS.ai },
   { label: "שאלות נפוצות", target: SECTIONS.faq },
   { label: "יצירת קשר", target: SECTIONS.contact },
 ];

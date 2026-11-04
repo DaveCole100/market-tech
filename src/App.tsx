@@ -4,6 +4,7 @@ import { Hero } from "./sections/Hero";
 import { About } from "./sections/About";
 import { Platforms } from "./sections/Platforms";
 import { WhyMarketTech } from "./sections/WhyMarketTech";
+import { AIIntegration } from "./sections/AIIntegration";
 import { FAQ } from "./sections/FAQ";
 import { Contact } from "./sections/Contact";
 
@@ -23,6 +24,7 @@ export default function App() {
         <Hero />
         <About />
         <Platforms />
+        <AIIntegration />
         <WhyMarketTech />
         <FAQ />
         <Contact />

@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { createPortal } from "react-dom";
 import { Menu, X } from "lucide-react";
 import { NAV_ITEMS, SECTIONS, siteConfig } from "../config/siteConfig";
 
@@ -75,7 +76,7 @@ export function Header() {
       </div>
 
       {/* תפריט מובייל */}
-      {open && (
+      {open && createPortal(
         <div className="fixed inset-0 z-50 md:hidden" role="dialog" aria-modal="true" aria-label="תפריט ניווט">
           <div
             className="absolute inset-0 bg-navy/40 backdrop-blur-sm"
@@ -109,7 +110,8 @@ export function Header() {
               ))}
             </nav>
           </div>
-        </div>
+        </div>,
+        document.body
       )}
     </header>
   );
